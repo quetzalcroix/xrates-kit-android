@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.google.android.material.snackbar.Snackbar
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.demo.R
 import io.vextabit.xrateskit.entities.CoinData
 import io.vextabit.xrateskit.entities.TimePeriod

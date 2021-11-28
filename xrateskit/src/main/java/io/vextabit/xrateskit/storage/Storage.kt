@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.storage
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.providers.InfoProvider
 import io.vextabit.xrateskit.core.IStorage
 import io.vextabit.xrateskit.entities.*

@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.providers.defiyield
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.core.IAuditInfoProvider
 import io.vextabit.xrateskit.entities.AuditReport
 import io.vextabit.xrateskit.entities.Auditor

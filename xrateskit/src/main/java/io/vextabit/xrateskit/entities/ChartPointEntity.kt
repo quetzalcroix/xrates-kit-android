@@ -1,7 +1,7 @@
 package io.vextabit.xrateskit.entities
 
 import androidx.room.Entity
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import java.math.BigDecimal
 
 @Entity(primaryKeys = ["type", "coinType", "currency", "timestamp"])

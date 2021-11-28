@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.demo
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.entities.ChartInfo
 import io.vextabit.xrateskit.entities.ChartType
 import io.vextabit.xrateskit.entities.LatestRate

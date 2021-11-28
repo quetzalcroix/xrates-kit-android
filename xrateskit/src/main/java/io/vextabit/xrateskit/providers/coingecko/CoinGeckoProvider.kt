@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.providers.coingecko
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.coins.CoinInfoManager
 import io.vextabit.xrateskit.coins.ProviderCoinsManager
 import io.vextabit.xrateskit.core.*

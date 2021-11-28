@@ -2,7 +2,7 @@ package io.vextabit.xrateskit.demo.coinmarkets
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.demo.RatesManager
 import io.vextabit.xrateskit.entities.*
 import io.reactivex.disposables.CompositeDisposable

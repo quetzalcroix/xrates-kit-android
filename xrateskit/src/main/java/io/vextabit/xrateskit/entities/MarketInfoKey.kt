@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.entities
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 
 data class MarketInfoKey(
         val coinType: CoinType,

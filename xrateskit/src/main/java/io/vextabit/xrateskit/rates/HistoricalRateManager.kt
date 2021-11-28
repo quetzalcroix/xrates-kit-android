@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.rates
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.core.IHistoricalRateProvider
 import io.vextabit.xrateskit.core.IStorage
 import io.reactivex.Single

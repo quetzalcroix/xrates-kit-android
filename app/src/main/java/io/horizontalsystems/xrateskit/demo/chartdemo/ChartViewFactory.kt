@@ -4,7 +4,7 @@ import io.horizontalsystems.chartview.*
 import io.horizontalsystems.chartview.extensions.ChartInfoTrend
 import io.horizontalsystems.chartview.models.ChartPoint
 import io.horizontalsystems.chartview.models.MacdInfo
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.demo.chartdemo.entities.CurrencyValue
 import io.vextabit.xrateskit.entities.ChartInfo
 import io.vextabit.xrateskit.entities.ChartType

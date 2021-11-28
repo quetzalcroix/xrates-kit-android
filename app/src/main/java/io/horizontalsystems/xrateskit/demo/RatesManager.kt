@@ -1,7 +1,7 @@
 package io.vextabit.xrateskit.demo
 
 import android.content.Context
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.XRatesKit
 import io.vextabit.xrateskit.entities.*
 import io.reactivex.Observable

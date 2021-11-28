@@ -2,7 +2,7 @@ package io.vextabit.xrateskit.demo
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.entities.ChartInfo
 import io.vextabit.xrateskit.entities.CoinData
 import io.vextabit.xrateskit.entities.LatestRate

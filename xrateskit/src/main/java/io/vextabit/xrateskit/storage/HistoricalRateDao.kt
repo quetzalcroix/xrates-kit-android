@@ -1,7 +1,7 @@
 package io.vextabit.xrateskit.storage
 
 import androidx.room.*
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.entities.HistoricalRate
 
 @Dao

@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.coinmarkets
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.core.IDefiMarketsProvider
 import io.vextabit.xrateskit.core.IInfoManager
 import io.vextabit.xrateskit.entities.CoinMarket

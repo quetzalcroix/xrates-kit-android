@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.demo.chartdemo.ChartActivity
 import io.vextabit.xrateskit.demo.coinmarkets.TopMarketsFragment
 import io.vextabit.xrateskit.entities.CoinData

@@ -1,7 +1,7 @@
 package io.vextabit.xrateskit.storage
 
 import androidx.room.TypeConverter
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.entities.*
 import java.math.BigDecimal
 

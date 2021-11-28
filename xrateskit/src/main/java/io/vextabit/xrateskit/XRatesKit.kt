@@ -1,7 +1,7 @@
 package io.vextabit.xrateskit
 
 import android.content.Context
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.chartpoint.ChartInfoManager
 import io.vextabit.xrateskit.chartpoint.ChartInfoSchedulerFactory
 import io.vextabit.xrateskit.chartpoint.ChartInfoSyncManager

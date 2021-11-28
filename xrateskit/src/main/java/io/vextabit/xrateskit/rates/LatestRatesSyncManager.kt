@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.rates
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import io.vextabit.xrateskit.entities.LatestRate
 import io.vextabit.xrateskit.entities.LatestRateKey
 import io.vextabit.xrateskit.entities.PairKey

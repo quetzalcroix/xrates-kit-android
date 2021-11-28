@@ -1,6 +1,6 @@
 package io.vextabit.xrateskit.entities
 
-import io.horizontalsystems.coinkit.models.CoinType
+import io.vextabit.coinkit.models.CoinType
 import java.math.BigDecimal
 import java.util.*
 
