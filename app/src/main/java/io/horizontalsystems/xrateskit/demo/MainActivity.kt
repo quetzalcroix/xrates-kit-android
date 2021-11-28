@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.chartdemo.ChartActivity
-import io.horizontalsystems.xrateskit.demo.coinmarkets.TopMarketsFragment
-import io.horizontalsystems.xrateskit.entities.CoinData
+import io.vextabit.xrateskit.demo.chartdemo.ChartActivity
+import io.vextabit.xrateskit.demo.coinmarkets.TopMarketsFragment
+import io.vextabit.xrateskit.entities.CoinData
 import io.reactivex.plugins.RxJavaPlugins
 import kotlinx.android.synthetic.main.activity_main.*
 

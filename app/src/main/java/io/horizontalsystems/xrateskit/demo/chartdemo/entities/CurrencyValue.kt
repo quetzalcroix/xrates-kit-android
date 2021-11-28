@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo.entities
+package io.vextabit.xrateskit.demo.chartdemo.entities
 
 import java.math.BigDecimal
 

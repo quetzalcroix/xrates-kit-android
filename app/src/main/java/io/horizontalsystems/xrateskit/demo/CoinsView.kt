@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import androidx.lifecycle.MutableLiveData
 

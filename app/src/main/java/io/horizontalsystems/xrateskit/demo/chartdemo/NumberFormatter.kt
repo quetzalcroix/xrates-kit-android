@@ -1,6 +1,6 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.CurrencyValue
+import io.vextabit.xrateskit.demo.chartdemo.entities.CurrencyValue
 import java.math.BigDecimal
 import java.math.RoundingMode
 import java.text.NumberFormat

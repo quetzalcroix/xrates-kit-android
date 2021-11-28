@@ -1,8 +1,8 @@
-package io.horizontalsystems.xrateskit.demo.coinmarkets
+package io.vextabit.xrateskit.demo.coinmarkets
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import io.horizontalsystems.xrateskit.demo.App
+import io.vextabit.xrateskit.demo.App
 
 object TopMarketsModule {
 

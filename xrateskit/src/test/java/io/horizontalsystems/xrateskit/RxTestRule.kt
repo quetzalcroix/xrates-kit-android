@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit
+package io.vextabit.xrateskit
 
 import io.reactivex.plugins.RxJavaPlugins
 import io.reactivex.schedulers.Schedulers

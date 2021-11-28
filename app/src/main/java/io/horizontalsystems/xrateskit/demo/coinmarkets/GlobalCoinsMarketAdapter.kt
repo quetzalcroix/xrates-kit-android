@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo.coinmarkets
+package io.vextabit.xrateskit.demo.coinmarkets
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import io.horizontalsystems.xrateskit.demo.R
-import io.horizontalsystems.xrateskit.entities.GlobalCoinMarket
+import io.vextabit.xrateskit.demo.R
+import io.vextabit.xrateskit.entities.GlobalCoinMarket
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.view_holder_global_markets.view.*
 import java.math.BigDecimal

@@ -1,7 +1,7 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
 import androidx.lifecycle.MutableLiveData
-import io.horizontalsystems.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.entities.ChartType
 
 class ChartActivityView {
     val showSpinner = MutableLiveData<Unit>()

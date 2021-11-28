@@ -1,10 +1,10 @@
-package io.horizontalsystems.xrateskit.core
+package io.vextabit.xrateskit.core
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.xrateskit.entities.*
-import io.horizontalsystems.xrateskit.managers.ChartStatSyncer
-import io.horizontalsystems.xrateskit.rates.HistoricalRateManager
-import io.horizontalsystems.xrateskit.managers.MarketStatsManager
+import io.vextabit.xrateskit.entities.*
+import io.vextabit.xrateskit.managers.ChartStatSyncer
+import io.vextabit.xrateskit.rates.HistoricalRateManager
+import io.vextabit.xrateskit.managers.MarketStatsManager
 import org.junit.Assert.assertEquals
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

@@ -1,11 +1,11 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.entities.ChartInfo
-import io.horizontalsystems.xrateskit.entities.CoinData
-import io.horizontalsystems.xrateskit.entities.LatestRate
+import io.vextabit.xrateskit.entities.ChartInfo
+import io.vextabit.xrateskit.entities.CoinData
+import io.vextabit.xrateskit.entities.LatestRate
 import java.util.concurrent.Executors
 
 class CoinsPresenter(val view: CoinsView, private val interactor: CoinsInteractor) : ViewModel() {

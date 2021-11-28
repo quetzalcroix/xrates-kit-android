@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
 import android.os.Bundle
 import android.text.format.DateFormat
@@ -10,13 +10,13 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.chartview.Chart
 import io.horizontalsystems.chartview.models.PointInfo
-import io.horizontalsystems.xrateskit.demo.App
-import io.horizontalsystems.xrateskit.demo.R
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.CurrencyValue
+import io.vextabit.xrateskit.demo.App
+import io.vextabit.xrateskit.demo.R
+import io.vextabit.xrateskit.demo.chartdemo.entities.CurrencyValue
 import kotlinx.android.synthetic.main.activity_chart.*
 import java.text.SimpleDateFormat
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.Currency
-import io.horizontalsystems.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.demo.chartdemo.entities.Currency
+import io.vextabit.xrateskit.entities.ChartType
 import java.util.*
 
 class ChartActivity : AppCompatActivity(), Chart.Listener {

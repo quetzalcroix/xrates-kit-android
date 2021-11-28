@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit.demo.coinmarkets
+package io.vextabit.xrateskit.demo.coinmarkets
 
 import android.app.Activity
 import android.os.Bundle
@@ -12,9 +12,9 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.google.android.material.snackbar.Snackbar
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.R
-import io.horizontalsystems.xrateskit.entities.CoinData
-import io.horizontalsystems.xrateskit.entities.TimePeriod
+import io.vextabit.xrateskit.demo.R
+import io.vextabit.xrateskit.entities.CoinData
+import io.vextabit.xrateskit.entities.TimePeriod
 import kotlinx.android.synthetic.main.fragment_top_markets.*
 
 

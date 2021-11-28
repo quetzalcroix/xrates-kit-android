@@ -1,15 +1,15 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import io.horizontalsystems.chartview.Chart
 import io.horizontalsystems.chartview.models.PointInfo
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.App
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.Currency
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.CurrencyValue
-import io.horizontalsystems.xrateskit.entities.ChartInfo
-import io.horizontalsystems.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.demo.App
+import io.vextabit.xrateskit.demo.chartdemo.entities.Currency
+import io.vextabit.xrateskit.demo.chartdemo.entities.CurrencyValue
+import io.vextabit.xrateskit.entities.ChartInfo
+import io.vextabit.xrateskit.entities.ChartType
 import java.math.BigDecimal
 import java.util.concurrent.Executors
 

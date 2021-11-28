@@ -1,11 +1,11 @@
-package io.horizontalsystems.xrateskit.managers
+package io.vextabit.xrateskit.managers
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.xrateskit.core.*
-import io.horizontalsystems.xrateskit.entities.ChartPointEntity
-import io.horizontalsystems.xrateskit.entities.ChartInfoKey
-import io.horizontalsystems.xrateskit.entities.ChartType
-import io.horizontalsystems.xrateskit.rates.LatestRatesScheduler
+import io.vextabit.xrateskit.core.*
+import io.vextabit.xrateskit.entities.ChartPointEntity
+import io.vextabit.xrateskit.entities.ChartInfoKey
+import io.vextabit.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.rates.LatestRatesScheduler
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Single

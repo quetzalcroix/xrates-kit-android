@@ -1,9 +1,9 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.entities.ChartInfo
-import io.horizontalsystems.xrateskit.entities.ChartType
-import io.horizontalsystems.xrateskit.entities.LatestRate
+import io.vextabit.xrateskit.entities.ChartInfo
+import io.vextabit.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.entities.LatestRate
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

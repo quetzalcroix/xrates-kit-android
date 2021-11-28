@@ -1,12 +1,11 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import io.horizontalsystems.xrateskit.entities.LatestRate
-import io.horizontalsystems.xrateskit.entities.MarketInfo
+import io.vextabit.xrateskit.entities.LatestRate
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.view_holder_rate.view.*
 import java.util.*

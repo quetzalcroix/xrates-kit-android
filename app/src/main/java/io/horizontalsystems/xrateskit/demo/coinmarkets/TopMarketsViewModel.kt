@@ -1,10 +1,10 @@
-package io.horizontalsystems.xrateskit.demo.coinmarkets
+package io.vextabit.xrateskit.demo.coinmarkets
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.RatesManager
-import io.horizontalsystems.xrateskit.entities.*
+import io.vextabit.xrateskit.demo.RatesManager
+import io.vextabit.xrateskit.entities.*
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

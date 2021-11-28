@@ -1,4 +1,4 @@
-package io.horizontalsystems.xrateskit
+package io.vextabit.xrateskit
 
 import org.junit.Test
 

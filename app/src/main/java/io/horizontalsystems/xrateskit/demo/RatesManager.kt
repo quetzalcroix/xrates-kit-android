@@ -1,15 +1,15 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import android.content.Context
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.XRatesKit
-import io.horizontalsystems.xrateskit.entities.*
+import io.vextabit.xrateskit.XRatesKit
+import io.vextabit.xrateskit.entities.*
 import io.reactivex.Observable
 import io.reactivex.Single
 import java.math.BigDecimal
 
 class RatesManager(context: Context, currency: String) {
-    private val kit = XRatesKit.create(context, 60 * 10, defiyieldProviderApiKey = "87e8671e-8267-427c-92c3-4627833445ae", coinsRemoteUrl = "https://raw.githubusercontent.com/horizontalsystems/cryptocurrencies/version/0.21/coins.json", providerCoinsRemoteUrl = "https://raw.githubusercontent.com/horizontalsystems/cryptocurrencies/version/0.21/provider.coins.json")
+    private val kit = io.vextabit.xrateskit.XRatesKit.create(context, 60 * 10, defiyieldProviderApiKey = "87e8671e-8267-427c-92c3-4627833445ae", coinsRemoteUrl = "https://raw.githubusercontent.com/horizontalsystems/cryptocurrencies/version/0.21/coins.json", providerCoinsRemoteUrl = "https://raw.githubusercontent.com/horizontalsystems/cryptocurrencies/version/0.21/provider.coins.json")
 
     fun refresh(currencyCode: String) {
         kit.refresh(currencyCode)

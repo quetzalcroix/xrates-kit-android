@@ -1,15 +1,13 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
 import android.util.Log
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.RatesManager
-import io.horizontalsystems.xrateskit.entities.ChartInfo
-import io.horizontalsystems.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.demo.RatesManager
+import io.vextabit.xrateskit.entities.ChartInfo
+import io.vextabit.xrateskit.entities.ChartType
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import java.math.BigDecimal
 import java.util.concurrent.TimeUnit
 
 class ChartInteractor(private val ratesManager: RatesManager) {

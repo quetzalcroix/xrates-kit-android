@@ -1,12 +1,12 @@
-package io.horizontalsystems.xrateskit.managers
+package io.vextabit.xrateskit.managers
 
 import com.nhaarman.mockitokotlin2.*
-import io.horizontalsystems.xrateskit.RxTestRule
-import io.horizontalsystems.xrateskit.XRatesDataSource
-import io.horizontalsystems.xrateskit.core.*
-import io.horizontalsystems.xrateskit.entities.LatestRate
-import io.horizontalsystems.xrateskit.rates.LatestRatesScheduler
-import io.horizontalsystems.xrateskit.rates.LatestRateSyncer
+import io.vextabit.xrateskit.RxTestRule
+import io.vextabit.xrateskit.XRatesDataSource
+import io.vextabit.xrateskit.core.*
+import io.vextabit.xrateskit.entities.LatestRate
+import io.vextabit.xrateskit.rates.LatestRatesScheduler
+import io.vextabit.xrateskit.rates.LatestRateSyncer
 import io.reactivex.BackpressureStrategy
 import io.reactivex.Flowable
 import io.reactivex.Observable

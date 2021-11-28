@@ -1,8 +1,8 @@
-package io.horizontalsystems.xrateskit.demo
+package io.vextabit.xrateskit.demo
 
 import android.app.Application
 import com.facebook.stetho.Stetho
-import io.horizontalsystems.xrateskit.demo.chartdemo.NumberFormatter
+import io.vextabit.xrateskit.demo.chartdemo.NumberFormatter
 
 class App : Application() {
 

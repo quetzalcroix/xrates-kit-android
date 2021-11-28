@@ -1,12 +1,12 @@
-package io.horizontalsystems.xrateskit.managers
+package io.vextabit.xrateskit.managers
 
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify
 import com.nhaarman.mockitokotlin2.verifyZeroInteractions
 import com.nhaarman.mockitokotlin2.whenever
-import io.horizontalsystems.xrateskit.providers.cryptocompare.CryptoCompareProvider
-import io.horizontalsystems.xrateskit.core.IStorage
-import io.horizontalsystems.xrateskit.entities.MarketInfoEntity
+import io.vextabit.xrateskit.providers.cryptocompare.CryptoCompareProvider
+import io.vextabit.xrateskit.core.IStorage
+import io.vextabit.xrateskit.entities.MarketInfoEntity
 import io.reactivex.Single
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe

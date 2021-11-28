@@ -1,6 +1,6 @@
-package io.horizontalsystems.xrateskit.core
+package io.vextabit.xrateskit.core
 
-import io.horizontalsystems.xrateskit.rates.LatestRatesScheduler
+import io.vextabit.xrateskit.rates.LatestRatesScheduler
 import org.spekframework.spek2.Spek
 import org.spekframework.spek2.style.specification.describe
 

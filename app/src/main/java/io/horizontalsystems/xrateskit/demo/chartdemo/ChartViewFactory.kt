@@ -1,14 +1,14 @@
-package io.horizontalsystems.xrateskit.demo.chartdemo
+package io.vextabit.xrateskit.demo.chartdemo
 
 import io.horizontalsystems.chartview.*
 import io.horizontalsystems.chartview.extensions.ChartInfoTrend
 import io.horizontalsystems.chartview.models.ChartPoint
 import io.horizontalsystems.chartview.models.MacdInfo
 import io.horizontalsystems.coinkit.models.CoinType
-import io.horizontalsystems.xrateskit.demo.chartdemo.entities.CurrencyValue
-import io.horizontalsystems.xrateskit.entities.ChartInfo
-import io.horizontalsystems.xrateskit.entities.ChartType
-import io.horizontalsystems.xrateskit.entities.MarketInfo
+import io.vextabit.xrateskit.demo.chartdemo.entities.CurrencyValue
+import io.vextabit.xrateskit.entities.ChartInfo
+import io.vextabit.xrateskit.entities.ChartType
+import io.vextabit.xrateskit.entities.MarketInfo
 import java.lang.Long.max
 import java.math.BigDecimal
 
