@@ -211,7 +211,7 @@ class XRatesKit(
 
             val coinSyncer = CoinSyncer(providerCoinsManager, coinInfoManager)
 
-            return io.vextabit.xrateskit.XRatesKit(
+            return XRatesKit(
                 latestRatesManager,
                 latestRatesSyncManager,
                 chartInfoManager,

@@ -42,7 +42,7 @@ dependencies {
 
     //CoinKit
 //    api 'com.github.horizontalsystems:coin-kit-android:670a130'
-    api 'com.github.quetzalcroix:coin-kit-android:db9907d'
+    api 'com.github.quetzalcroix:coin-kit-android:0493134'
 
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
