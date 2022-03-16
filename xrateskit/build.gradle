@@ -3,11 +3,11 @@ apply plugin: 'kotlin-android'
 apply plugin: "kotlin-kapt"
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 26
-        targetSdkVersion 29
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
 
@@ -19,6 +19,14 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 }
 
@@ -41,8 +49,7 @@ dependencies {
     implementation 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
 
     //CoinKit
-//    api 'com.github.horizontalsystems:coin-kit-android:670a130'
-    implementation 'com.github.quetzalcroix:coin-kit-android:master-SNAPSHOT'
+    implementation 'com.github.quetzalcroix:coin-kit-android:91b8eeb89d'
 
 
     implementation 'com.squareup.okhttp3:okhttp:4.9.0'
