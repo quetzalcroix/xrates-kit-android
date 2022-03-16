@@ -168,7 +168,7 @@ class XRatesKit(
             val storage = Storage(Database.create(context))
 
             val coinInfoResourceProvider =
-                io.vextabit.xrateskit.XRatesKit.Companion.buildCoinInfoResourceProvider(
+                buildCoinInfoResourceProvider(
                     context,
                     coinsRemoteUrl
                 )
@@ -176,7 +176,7 @@ class XRatesKit(
             val coinInfoManager = CoinInfoManager(storage, coinInfoSyncer)
 
             val providerCoinsResourceProvider =
-                io.vextabit.xrateskit.XRatesKit.Companion.buildProviderCoinsResourceProviderImpl(
+                buildProviderCoinsResourceProviderImpl(
                     context,
                     providerCoinsRemoteUrl
                 )

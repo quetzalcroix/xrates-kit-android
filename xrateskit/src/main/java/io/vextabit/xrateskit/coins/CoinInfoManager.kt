@@ -51,7 +51,7 @@ class CoinInfoManager(
         return storage.getCoinTreasuries(coinType).let {  storedValues ->
             val companyIds = storedValues.map { it.companyId }
             val companies = storage.getTreasuryCompanies(companyIds)
-            if(!companies.isEmpty()){
+            if(companies.isNotEmpty()){
                 storedValues.forEach { treasureData ->
 
                     companies.find { it.id == treasureData.companyId}?.let {
@@ -103,7 +103,7 @@ class CoinInfoManager(
 
     fun getLinks(coinType: CoinType, linksByProvider: Map<LinkType, String>): Map<LinkType, String> {
         val links = mutableMapOf<LinkType, String>()
-        val linksStored = storage.getCoinLinks(coinType).map { it.linkType to it.link }.toMap()
+        val linksStored = storage.getCoinLinks(coinType).associate { it.linkType to it.link }
 
         LinkType.values().forEach { linkType ->
             val ls = linksStored[linkType]
@@ -115,7 +115,7 @@ class CoinInfoManager(
                 else null
 
             link?.let{
-                links.put(linkType, link)
+                links[linkType] = link
             }
         }
 

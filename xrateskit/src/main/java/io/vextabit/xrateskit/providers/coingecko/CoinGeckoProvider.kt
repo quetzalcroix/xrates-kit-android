@@ -184,6 +184,7 @@ class CoinGeckoProvider(
                         "ethereum" -> CoinPlatformType.ETHEREUM
                         "eos" -> CoinPlatformType.EOS
                         "binance-smart-chain" -> CoinPlatformType.BINANCE_SMART_CHAIN
+                        "digest-swarm-chain" -> CoinPlatformType.DIGEST_SWARM_CHAIN
                         "binancecoin" -> CoinPlatformType.BINANCE
                         else -> CoinPlatformType.OTHER
                     }

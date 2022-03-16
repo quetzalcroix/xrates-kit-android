@@ -70,6 +70,7 @@ enum class CoinPlatformType{
     ETHEREUM,
     BINANCE,
     BINANCE_SMART_CHAIN,
+    DIGEST_SWARM_CHAIN,
     TRON,
     EOS,
 }
